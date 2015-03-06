@@ -1,0 +1,42 @@
+{
+    "name": "gourmet/filters"
+    , "description": "Dispatcher filters (middlewares) for CakePHP 3"
+    , "type": "cakephp-plugin"
+    , "keywords": [
+        "cakephp"
+        , "gourmet"
+    ]
+    , "homepage": "https://github.com/gourmet/filters"
+    , "license": "MIT"
+    , "authors": [
+        {
+            "name": "Jad Bitar"
+            , "homepage": "http://jadb.io"
+            , "role": "Author"
+        }
+        , {
+            "name": "Others"
+            , "homepage": "https://github.com/gourmet/filters/graphs/contributors"
+        }
+    ]
+    , "support": {
+        "issues": "https://github.com/gourmet/filters/issues"
+        , "source": "https://github.com/gourmet/filters"
+    }
+    , "require": {
+        "cakephp/cakephp": "3.0.*-dev"
+    }
+    , "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+    , "autoload": {
+        "psr-4": {
+            "Gourmet\\Filters\\": "src"
+        }
+    }
+    , "autoload-dev": {
+        "psr-4": {
+            "Gourmet\\Filters\\Test\\": "tests"
+        }
+    }
+}
