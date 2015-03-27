@@ -11,7 +11,7 @@ Dispatcher filters (middlewares) for [CakePHP 3].
 Using [Composer]:
 
 ```
-composer require gourmet/filters:dev-master
+composer require gourmet/filters:~0.1
 ```
 
 You then need to load the plugin. In `boostrap.php`, something like:
