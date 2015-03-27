@@ -4,11 +4,11 @@
 [![Total Downloads](https://poser.pugx.org/gourmet/filters/downloads.svg)](https://packagist.org/packages/gourmet/{{lcPluginName}})
 [![License](https://poser.pugx.org/gourmet/filters/license.svg)](https://packagist.org/packages/gourmet/{{lcPluginName}})
 
-Dispatcher filters (middlewares) for CakePHP 3.
+Dispatcher filters (middlewares) for [CakePHP 3].
 
 ## Install
 
-Using [Composer][composer]:
+Using [Composer]:
 
 ```
 composer require gourmet/filters:dev-master
@@ -60,7 +60,7 @@ or
 
 ```php
 DispatcherFactory::add('Gourmet/Filters.Ip', [
-    'allow' => [
+    'disallow' => [
         '127.0.0.1'
     ]
 ]);
@@ -71,7 +71,7 @@ This one provides a default `robots.txt` file for non-production environments. B
 it checks the 'APP_ENV' environment variable and compares it's value to 'production'.
 
 ```php
-DispatcherFactory::add('Gourmet.Filters/Robots');
+DispatcherFactory::add('Gourmet/Filters.Robots');
 ```
 
 On all your non-production environments, `robots.txt` will look like this:
@@ -102,7 +102,6 @@ http://github.com/gourmet/filters/issues
 
 Copyright (c) 2015, Jad Bitar and licensed under [The MIT License][mit].
 
-[cakephp]:http://cakephp.org
-[composer]:http://getcomposer.org
-[composer:ignore]:http://getcomposer.org/doc/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md
+[CakePHP 3]:http://cakephp.org
+[Composer]:http://getcomposer.org
 [mit]:http://www.opensource.org/licenses/mit-license.php
