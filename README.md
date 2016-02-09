@@ -1,8 +1,8 @@
 # Filters
 
-[![Build Status](https://travis-ci.org/gourmet/filters.svg?branch=master)](https://travis-ci.org/gourmet/{{lcPluginName}})
-[![Total Downloads](https://poser.pugx.org/gourmet/filters/downloads.svg)](https://packagist.org/packages/gourmet/{{lcPluginName}})
-[![License](https://poser.pugx.org/gourmet/filters/license.svg)](https://packagist.org/packages/gourmet/{{lcPluginName}})
+[![Build Status](https://travis-ci.org/gourmet/filters.svg?branch=master)](https://travis-ci.org/gourmet/filters
+[![Total Downloads](https://poser.pugx.org/gourmet/filters/downloads.svg)](https://packagist.org/packages/gourmet/filters
+[![License](https://poser.pugx.org/gourmet/filters/license.svg)](https://packagist.org/packages/gourmet/filters)
 
 Dispatcher filters (middlewares) for [CakePHP 3].
 
