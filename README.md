@@ -6,6 +6,8 @@
 
 Dispatcher filters (middlewares) for [CakePHP 3].
 
+**NOTE: This is the `master` branch, latest stable is [1.0](https://github.com/gourmet/filters/tree/1.0) branch.**
+
 ## Install
 
 Using [Composer]:
