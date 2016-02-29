@@ -3,6 +3,7 @@
 namespace Gourmet\Filters\Routing\Filter;
 
 use Cake\Event\Event;
+use Cake\Network\Request;
 use Cake\Network\Response;
 use Cake\Routing\DispatcherFilter;
 
@@ -16,7 +17,7 @@ class RobotsFilter extends DispatcherFilter
         ];
 
         if (empty($config['when'])) {
-            $config['when'] = function() use ($config) {
+            $config['when'] = function(Request $request) use ($config) {
                 return $request->env($config['key']) === $config['value'];
             };
         }
