@@ -24,7 +24,7 @@ class IpFilter extends DispatcherFilter
                     in_array($ip, $config['allow']) 
                     || !in_array($ip, $config['disallow'])
                 );
-            }
+            };
         }
         parent::__construct($config);
     }
